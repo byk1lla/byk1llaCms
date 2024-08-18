@@ -43,6 +43,8 @@ byk1llaCMS, içerik yönetim sistemi (CMS) olarak geliştirilmiş, kullanıcı d
 - [Hizmetler Sayfası](https://github.com/user-attachments/assets/6d6763f3-e0d0-43d2-80cd-f32a524e8963)
 
 </details>
+
+
 ## Gereksinimler
 
 - PHP 7.4 ve üstü (Önerilen: PHP 8.0+)
