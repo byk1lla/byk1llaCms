@@ -1,0 +1,6 @@
+RewriteEngine On
+ ReWriteCond %{SERVER_PORT} !^443$
+   RewriteRule ^/(.*) https://%{HTTP_HOST}/$1 [NC,R,L]
+RewriteRule ^([a-zA-Z-0-9-_/]+)$ index.php [QSA]
+
+

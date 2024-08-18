@@ -1,0 +1,26 @@
+body {
+    font-family: 'Nunito', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.mce-content-body {
+    background-color: #1E1E1E;  /* Koyu gri arka plan */
+    color: #E5E5E5;             /* Açık gri yazı rengi */
+    font-family: 'Arial', sans-serif;
+}
+
+/* TinyMCE toolbar koyu tema */
+.mce-container, .mce-toolbar {
+    background-color: #2C2C2C;
+    border-color: #444;
+}
+
+/* Toolbar butonları */
+.mce-btn {
+    background-color: #333;
+    color: #E5E5E5;
+}
+
+/* Dropdown ve modal içerikler */
+.mce-menu {
+    background-color: #2C2C2C;
+}

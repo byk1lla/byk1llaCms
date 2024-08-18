@@ -1,0 +1,46 @@
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+    margin-right: 15px;
+}
+.navbar-nav .nav-link:hover {
+    color: #4CAF50; /
+}
+
+@keyframes carousel {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#carousel-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+#carousel {
+    display: flex;
+    white-space: nowrap;
+    animation: carousel 10s linear infinite;
+}
+
+.carousel-item {
+    flex-shrink: 0;
+    width: 200px;
+    margin-right: 16px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: blur(4px);
+}
+
+.carousel-item img:hover {
+    transform: scale(1.1);
+    filter: blur(0);
+}
