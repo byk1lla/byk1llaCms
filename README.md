@@ -14,6 +14,35 @@ byk1llaCMS, içerik yönetim sistemi (CMS) olarak geliştirilmiş, kullanıcı d
 - **Dinamik Ayarlar**: Yönetim panelinden site ayarları, logo ve favicon değiştirme.
 - **Responsive Tasarım**: Tüm cihazlar için uyumlu tasarım.
 
+## Temalar ve Admin Sayfası
+### Mavi Tema(tailwind-mavi)
+<details>
+<summary>Sayfalar</summary>
+    
+- [Ana Sayfa](https://github.com/user-attachments/assets/2006f2f1-d596-485b-9991-ac2df56ebafe)
+- [İletişim](https://github.com/user-attachments/assets/c23e1bd7-0dcd-4f8b-abb0-e9ae26dfe269)
+- [Diğer Sayfalar](https://github.com/user-attachments/assets/cffe224d-b49b-4e10-926d-407718fc12b1)
+</details>
+
+### Yeşil Tema(tailwind-yesil)
+<details>
+<summary>Sayfalar</summary>
+ yeşil sayfa daha henüz yapım aşamasında lütfen daha sonra tekrar kontrol edin
+</details>
+
+### Admin Sayfası
+<details>
+<summary>Sayfalar</summary>
+    
+- [Giriş Sayfası](https://github.com/user-attachments/assets/e40dab3f-f2b9-42d0-a8eb-7e48f0bcb871)
+- [Müşteri Sayfası](https://github.com/user-attachments/assets/c8897a71-9482-4523-8393-e698fbd60bd7)
+- [Kategoriler Sayfası](https://github.com/user-attachments/assets/965462a0-c763-495b-92e2-ff34acdadc86)
+- [Kullanıcılar Sayfası](https://github.com/user-attachments/assets/e3c2a757-3b15-4ae7-a9e1-d5dbacb26c0a)
+- [Ürünler Sayfası](https://github.com/user-attachments/assets/b287cd80-3d23-4901-ac31-429057f57ec8)
+- [Pörtföyler Sayfası](https://github.com/user-attachments/assets/5b129c1e-5977-46cb-9122-8cfe4a04dd5e)
+- [Hizmetler Sayfası](https://github.com/user-attachments/assets/6d6763f3-e0d0-43d2-80cd-f32a524e8963)
+
+</details>
 ## Gereksinimler
 
 - PHP 7.4 ve üstü (Önerilen: PHP 8.0+)
