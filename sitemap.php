@@ -8,27 +8,27 @@ ob_start();
 $urls = [];
 
 $urls[] = [
-    'loc' => 'https://3etasimacilik.com',
+    'loc' => 'https://YOUR_URL.com',
     'priority' => '1.0',
     'changefreq' => 'daily',
 ];
 
 $urls[] = [
-    'loc' => 'https://3etasimacilik.com/about-us',
+    'loc' => 'https://YOUR_URL.com/about-us',
     'priority' => '1.0',
     'changefreq' => 'daily',
 ];
 $urls[] = [
-    'loc' => 'https://3etasimacilik.com/contact',
+    'loc' => 'https://YOUR_URL.com/contact',
     'priority' => '1.0',
     'changefreq' => 'daily',
 ];
 $urls[] = [
-    'loc' => 'https://3etasimacilik.com/category',
+    'loc' => 'https://YOUR_URL.com/category',
     'priority' => '1.0',
     'changefreq' => 'daily',
 ];$urls[] = [
-    'loc' => 'https://3etasimacilik.com/products',
+    'loc' => 'https://YOUR_URL.com/products',
     'priority' => '1.0',
     'changefreq' => 'daily',
 ];
@@ -36,7 +36,7 @@ $urls[] = [
 $categories = $db->query("SELECT id, updated_at FROM categories")->fetchAll(PDO::FETCH_ASSOC);
 foreach ($categories as $category) {
     $urls[] = [
-        'loc' => 'https://3etasimacilik.com/category/' . $category['id'], // ID ile URL oluşturuyoruz
+        'loc' => 'https://YOUR_URL.com/category/' . $category['id'], // ID ile URL oluşturuyoruz
         'priority' => '0.8',
         'changefreq' => 'weekly',
         'lastmod' => date(DATE_W3C, strtotime($category['updated_at'])),
@@ -47,7 +47,7 @@ foreach ($categories as $category) {
 $products = $db->query("SELECT id, updated_at FROM products")->fetchAll(PDO::FETCH_ASSOC);
 foreach ($products as $product) {
     $urls[] = [
-        'loc' => 'https://3etasimacilik.com/product-detail/' . $product['id'], // ID ile URL oluşturuyoruz
+        'loc' => 'https://YOUR_URL.com/product-detail/' . $product['id'], // ID ile URL oluşturuyoruz
         'priority' => '0.7',
         'changefreq' => 'weekly',
         'lastmod' => date(DATE_W3C, strtotime($product['updated_at'])),
@@ -58,7 +58,7 @@ foreach ($products as $product) {
 $products = $db->query("SELECT id, updated_at FROM portfolios")->fetchAll(PDO::FETCH_ASSOC);
 foreach ($products as $product) {
     $urls[] = [
-        'loc' => 'https://3etasimacilik.com/portfolio/' . $product['id'], // ID ile URL oluşturuyoruz
+        'loc' => 'https://YOUR_URL.com/portfolio/' . $product['id'], // ID ile URL oluşturuyoruz
         'priority' => '0.7',
         'changefreq' => 'weekly',
         'lastmod' => date(DATE_W3C, strtotime($product['updated_at'])),

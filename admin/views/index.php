@@ -34,7 +34,7 @@ require admin_view("static/header");
                                 <div class="user-info">
                                     <h5 class="font-bold mb-1"><?=$_SESSION["username"]?></h5>
                                     <h6 class="text-muted mb-0" style="font-size: 14px;">
-                                        <?=$_SESSION['username'] == "byk1lla" ? "Kullanıcı Rolleri: Admin, Sistem Yöneticisi, Kadın Menajeri":"Patron, Büyük adam, canım babam <3"?>
+                                        Administrator
                                     </h6>
                                 </div>
                             </div>

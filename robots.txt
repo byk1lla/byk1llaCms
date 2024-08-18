@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /admin/
 
 # Sitemap'inizi Google'a bildirin
-Sitemap: https://3etasimacilik.com/sitemap.php
+Sitemap: https://YOUR_URL.com/sitemap.php
